@@ -23,9 +23,15 @@ Raw data source was obtained from https://d396qusza40orc.cloudfront.net/getdata%
 1. Read the instructions and grading scheme on how to accomplish maximum points for the course project
 2. Download raw data from link above (zip file)
 3. Scan the files in the zip file
+4. Compose a script called run_analysis.R that:
+- Merges the training and the test sets to create one data set.
+- Extracts only the measurements on the mean and standard deviation for each measurement. 
+- Uses descriptive activity names to name the activities in the data set
+- Appropriately labels the data set with descriptive variable names. 
+- From the data set in previous stel, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
  
 ###Cleaning of the data
-Short, high-level description of what the cleaning script does. [link to the readme document that describes the code in greater detail]()
+Short, high-level description of what the cleaning script does.
  
 ##Description of the variables in the tiny_data.txt file
 General description of the file including:
