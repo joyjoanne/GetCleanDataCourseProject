@@ -32,7 +32,7 @@ Raw data source was obtained from https://d396qusza40orc.cloudfront.net/getdata%
 - Label the data set with descriptive variable names appropriately (variable names obtained from source found in features text file). Create one dataset call "alldata" for further analysis.
 - Extract only the measurements on the mean and standard deviation for each measurement from "alldata" dataset by using dplyr's select that contains "mean" and "std" 
 - Use descriptive activity names to name the activities in the data set (names were obtained from source found in activity_labels text file). The keys and names are matched by using dplyr's match
-- From the data set in previous step, creates a second, independent tidy data set call "summary" with the average of each variable for each activity and each subject.
+- From the data set in previous step, creates a second, independent tidy data set call "summary" with the average of each variable for each activity and each subject using dplyr's chain method and group_by and summarise_each functions.
  
 ##Description of the variables in the Summary.txt file
 The Summary.txt file is the output file from running the run_analysis.R file. It is a tidy dataset that contains merged train and test raw datasets.
