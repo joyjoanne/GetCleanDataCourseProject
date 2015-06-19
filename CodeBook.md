@@ -25,13 +25,13 @@ Raw data source was obtained from https://d396qusza40orc.cloudfront.net/getdata%
  
 ##Guide to create the tidy data files
 1. Read the instructions and grading scheme on how to accomplish maximum points for the course project
-2. Download raw data from link above (zip file) to local computer
-3. Compose a script called run_analysis.R that:
+2. Download raw data from link above (zip file) to local computer. Set your working directory to the "./UCI HAR Dataset" path. To double check, type the command list.files(path). You will find the train and test folders as well as activity_labels, features, features_info and README text files
+3. Compose a script called run_analysis.R that...
 - Read the raw files into RStudio
 - Merge the training and the test X_test,y_test and subject_test files
-- Label the data set with descriptive variable names appropriately. Create one dataset call "alldata" for further analysis.
+- Label the data set with descriptive variable names appropriately (variable names obtained from source found in features text file). Create one dataset call "alldata" for further analysis.
 - Extract only the measurements on the mean and standard deviation for each measurement from "alldata" dataset by using dplyr's select that contains "mean" and "std" 
-- Use descriptive activity names to name the activities in the data set. The keys and names are matched by using dplyr's match
+- Use descriptive activity names to name the activities in the data set (names were obtained from source found in activity_labels text file). The keys and names are matched by using dplyr's match
 - From the data set in previous step, creates a second, independent tidy data set call "summary" with the average of each variable for each activity and each subject.
  
 ##Description of the variables in the Summary.txt file
