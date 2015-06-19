@@ -2,7 +2,7 @@
 # Date: June 18, 2015
 # This run_analysis.R script does the following:
 
-# 1) Merge the training and the test sets to create one data set call tidy_data
+# 1) Merge the training and the test sets to create one data set call merged
 # Download raw data to local hard drive. Source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 # Set working directory to be in the UCI HAR Dataset folder
 # Merge test and train sets
