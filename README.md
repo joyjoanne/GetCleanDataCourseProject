@@ -9,11 +9,11 @@ Welcome to my repository containing all the files required to complete the Cours
 
 This repository contains:
 - README.md that describes the general idea on how to navigate and what to expect in this repository
-- run_analysis.R script that takes the raw dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. The script merges and tidy the training and test sets to create one dataset called alldata. It then extracts only the measurements on the mean and standard deviation for each measurement from the alldata. The script uses descriptive activity names to name the activities in the data set and appropriately labels the data set with descriptive variable names. Finally, it creates a second, independent tidy data set called summary that compiles the average of each variable for each activity and each subject.
-- a codebook.md that describes the origin of the raw data, transformations performed to tidy the data and the list of variables in the output Summary.txt file
+- run_analysis.R script that takes the raw dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. The script merges and tidies the training and test sets to create one dataset called alldata. It then extracts only the measurements on the mean and standard deviation for each measurement from the alldata using dplyr's select() and contains function. The script uses descriptive activity names to name the activities in the data set and appropriately labels the data set with descriptive variable names using dplyr's match function. Finally, it creates a second, independent tidy data set called summary that compiles the average of each variable for each activity and each subject using dplyr's chain method and group_by and summarise_each functions.
+- a codebook.md that describes the origin of the raw data, transformations performed to tidy the data and the list of variables in the output Summary.txt file.
 - Summary.txt file which is the output file of run_analysis.R. It contains the average of each variable for each activity and each subject.
 
 If you wish to run my run_analysis.R file, make sure you download and unzip the raw dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to your local harddrive. Set your working directory to the "./UCI HAR Dataset" path. To double check, type the command list.files(path). You will find the train and test folders as well as activity_labels, features, features_info and README text files. After the script ends, an output file called Summary.txt will be generated in the same folder. 
 
-I hope this readme.md provide you a good sense of my repository. Enjoy and thank you for visiting this page.
+I hope this README.md provide you a good sense of my repository. Enjoy and thank you for visiting this page.
 Joanne Lee
