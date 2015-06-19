@@ -24,7 +24,7 @@ Raw data source was obtained from https://d396qusza40orc.cloudfront.net/getdata%
 2. Download raw data from link above (zip file)
 3. Scan the files in the zip file
 4. Compose a script called run_analysis.R that:
-- Merges the training and the test sets to create one data set.
+- Merges the training and the test sets to create one data set call tidy_data.
 - Extracts only the measurements on the mean and standard deviation for each measurement. 
 - Uses descriptive activity names to name the activities in the data set
 - Appropriately labels the data set with descriptive variable names. 
