@@ -28,10 +28,7 @@ Raw data source was obtained from https://d396qusza40orc.cloudfront.net/getdata%
 - Extracts only the measurements on the mean and standard deviation for each measurement. 
 - Uses descriptive activity names to name the activities in the data set
 - Appropriately labels the data set with descriptive variable names. 
-- From the data set in previous stel, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
- 
-###Cleaning of the data
-Short, high-level description of what the cleaning script does.
+- From the data set in previous step, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
  
 ##Description of the variables in the tiny_data.txt file
 General description of the file including:
