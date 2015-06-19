@@ -1,6 +1,8 @@
 # GetCleanDataCourseProject
 Name: Joanne Lee
+
 Date: June 19, 2015
+
 Goal: Demonstrate my ability to collect, work with, and clean a data set AND get full points in my course project :)
 
 Welcome to my repository containing all the files required to complete the Coursera's Getting and Cleaning Data course project. Please take some time to read this file as this will provide you a general idea how to navigate in this repository. 
